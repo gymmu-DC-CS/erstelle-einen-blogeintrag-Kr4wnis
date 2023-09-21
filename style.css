@@ -9,3 +9,57 @@ body {
   background-color: lightgray;
   font-family: sans-serif;
 }
+
+body {background-color: gray ;}
+h2 {color: rgb(0, 0, 0);}
+h3 {color: rgb(0, 0, 0);}
+
+.zentrieren{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-zentrieren{
+    text-align: center;
+    }
+
+@keyframes farbwechsel {
+    0% {background-color: rgb(123, 123, 123);}
+    50% {background-color: rgb(48, 48, 48);}
+    100% {background-color: rgb(123, 123, 123);}
+}
+
+    body {
+        animation-name: farbwechsel;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    main {
+      background-color: rgb(255, 255, 255);
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    
+@keyframes farbwechsel-h1 {
+      0% {color:blue}
+      25% {color: cyan;}
+      50% {color: blueviolet;}
+      175% {color: brown;}
+      100% {color: blue;}
+    }
+
+    h1 {
+      animation-name: farbwechsel-h1;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+@keyframes    h2 {
+      border: rebeccapurple 5px double;
+      width:fit-content;
+    }
