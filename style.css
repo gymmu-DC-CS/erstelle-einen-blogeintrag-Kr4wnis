@@ -46,20 +46,36 @@ margin-right: auto;
 
     
 @keyframes farbwechsel-h1 {
-      0% {color:blue}
-      25% {color: cyan;}
-      50% {color: blueviolet;}
-      175% {color: brown;}
-      100% {color: blue;}
+      0% {color:blue; border-color: blueviolet;}
+      25% {color: cyan; border-color: greenyellow ;}
+      50% {color: blueviolet; border-color: darkcyan ;}
+      175% {color: brown; border-color: olive ;}
+      100% {color: blue; border-color: blueviolet ;}
     }
 
     h1 {
       animation-name: farbwechsel-h1;
-      animation-duration: 4s;
+      animation-duration: 6s;
       animation-iteration-count: infinite;
+      border-bottom: 2pt solid;
+      width: fit-content;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-@keyframes    h2 {
-      border: rebeccapurple 5px double;
-      width:fit-content;
+h2 {
+      border: 2pt dashed black;
+      width: fit-content;
+      padding-top: 3pt ;
+      padding-left: 6pt;
+      padding-right: 6pt;
+      padding-bottom: 3pt;
+      animation-name: farbwechsel-h1;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+    }
+    main {
+
+    padding: 10pt;
     }
