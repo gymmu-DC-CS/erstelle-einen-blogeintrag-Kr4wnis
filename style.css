@@ -25,9 +25,9 @@ margin-right: auto;
     }
 
 @keyframes farbwechsel {
-    0% {background-color: rgb(123, 123, 123);}
-    50% {background-color: rgb(48, 48, 48);}
-    100% {background-color: rgb(123, 123, 123);}
+    0% {background-color: rgb(255, 0, 0);}
+    50% {background-color: rgb(0, 241, 249);}
+    100% {background-color: rgb(255, 0, 0);}
 }
 
     body {
@@ -79,5 +79,6 @@ h2 {
 
     padding: 10pt;
     }
+
 
   
